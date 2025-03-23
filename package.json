@@ -1,0 +1,16 @@
+{
+  "name": "clearsql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "pm2": "pm2 start index.js --name 'clearSql'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.9"
+  }
+}
